@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Astro Quiz</string>
+    <string name="welcome_text">Welcome to the Astro Quiz!\nAre you up for the challenge?</string>
+    <string name="info_text">Answer all of the questions below, keep scrolling until you reach the end of the quiz. Do you have what it takes to answer all of them correctly?</string>
+    <string name="question1">Question 1 \"Shooting Stars\"</string>
+    <string name="true_or_false">Which of the following statements is true?</string>
+    <string name="question1_answer1">A meteor, known colloquially as a \"shooting star\" or \"falling star\", is the visible passage of a glowing meteoroid, micrometeoroid, comet or asteroid through Earth\'s atmosphere.</string>
+    <string name="question1_answer2">A asteroid is the part of a meteor that reaches the surface of the Earth.</string>
+    <string name="question1_answer3">A meteorite is a portion of a meteoroid or asteroid that survives its passage through the atmosphere and hits the ground without being destroyed.</string>
+    <string name="question2">Question 2 \"In the Moonlight\"</string>
+    <string name="question2_text">Is the Moon the only natural satellite of Earth?</string>
+    <string name="question2_answer1">True</string>
+    <string name="question2_answer2">False</string>
+    <string name="question3">Question 3 \"Put a ring on it!\"</string>
+    <string name="question3_text">Which planet in our solar system has rings around it?</string>
+    <string name="question4">Question 4 \"Twinkle twinkle....\"</string>
+    <string name="question4_text">Which of the following are stars?</string>
+    <string name="question4_answer1">Venus</string>
+    <string name="question4_answer2">Sun</string>
+    <string name="question4_answer3">Sirius</string>
+    <string name="question5">Question 5 \"Ursa Minor\"</string>
+    <string name="question5_text">Which star has a fixed apparent location on the night sky in the northern hemisphere?</string>
+    <string name="submit_button_text">Submit your answers!</string>
+</resources>

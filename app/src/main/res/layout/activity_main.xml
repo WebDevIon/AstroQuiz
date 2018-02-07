@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.astroquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/mainLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_text"
+            style="@style/TitleStyle"/>
+
+        <EditText
+            android:id="@+id/player_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/enterNameStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_text"
+            style="@style/InfoStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1"
+            style="@style/Question1Style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/true_or_false"
+            style="@style/QuestionText"/>
+
+        <CheckBox
+            android:id="@+id/q1_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer1"
+            style="@style/AnswerTextCheckbox"/>
+
+        <CheckBox
+            android:id="@+id/q1_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer2"
+            style="@style/AnswerTextCheckbox"/>
+
+        <CheckBox
+            android:id="@+id/q1_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer3"
+            style="@style/AnswerTextCheckbox"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question2"
+            style="@style/Question2Style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question2_text"
+            style="@style/QuestionText"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2_a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_answer1"
+                style="@style/AnswerRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/q2_a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_answer2"
+                style="@style/AnswerRadioButton"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            style="@style/Question3Style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question3_text"
+            style="@style/QuestionText"/>
+
+        <EditText
+            android:id="@+id/q3_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textAnswerStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            style="@style/Question4Style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question4_text"
+            style="@style/QuestionText"/>
+
+        <CheckBox
+            android:id="@+id/q4_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4_answer1"
+            style="@style/AnswerTextCheckbox"/>
+
+        <CheckBox
+            android:id="@+id/q4_a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4_answer2"
+            style="@style/AnswerTextCheckbox"/>
+
+        <CheckBox
+            android:id="@+id/q4_a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4_answer3"
+            style="@style/AnswerTextCheckbox"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question5"
+            style="@style/Question5Style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question5_text"
+            style="@style/QuestionText"/>
+
+        <EditText
+            android:id="@+id/q5_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textAnswerStyle"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button_text"
+            style="@style/ButtonStyle"
+            android:onClick="submitQuiz"/>
+
+    </LinearLayout>
+
+</ScrollView>
